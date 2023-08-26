@@ -1,0 +1,109 @@
+.container {
+  height: 200px;
+  width: 300px;
+  /* border: 15px solid red; */
+  position: relative;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.container01d {
+  background-image: url('../img/Чисте_небо_день.jpg');
+}
+.container01n {
+  background-image: url('../img/хмарне_небо_день.jpg');
+}
+.container02d {
+  background-image: url('../img/хмарне_небо_день.jpg');
+}
+.container02n {
+  background-image: url('../img/хмарне_небо_ніч.jpg');
+}
+.container03d {
+  background-image: url('../img/36a5a78e3af4d9d5b4ef5420fc0895d3.jpg');
+}
+.container03n {
+  background-image: url('../img/depositphotos_314916560-stock-photo-cloudy-sky-over-mountain-forest.jpg');
+}
+.container04d {
+  background-image: url('../img/7dab4b933ef631abcb4d055b32df64a3.jpg');
+}
+.container04n {
+  background-image: url('../img/depositphotos_84044254-stock-photo-full-moon-through-a-frightening.jpg');
+}
+.container09d {
+  background-image: url('../img/1b1715f49ea9453d9e63d71edeece83a.max-2500x1500.jpg');
+}
+.container09n {
+  background-image: url('../img/64331746aa5d4ca7.jpg');
+}
+.container10d {
+  background-image: url('../img/78361297_ec7894ae.jpg');
+}
+.container10n {
+  background-image: url('../img/44059-1u.jpg');
+}
+.container11d {
+  background-image: url('../img/images.jpg');
+}
+.container11n {
+  background-image: url('../img/hDYtXtdoF4r2Pis5XiFF-1.jpg');
+}
+.container13d {
+  background-image: url('../img/ce5f0d50-2492-471f-84db-0c26bb5c8b4e.jpg');
+}
+.container13n {
+  background-image: url('../img/b4113b5c449f7704c298bb3c78f83268.jpg');
+}
+.container50d {
+  background-image: url('../img/2690815a35f6396333e6f243f0d392e0.jpg');
+}
+.container50n {
+  background-image: url('../img/kitai-aziia-gory-tuman-kholmy-vershiny-noch.jpg');
+}
+
+.weather,
+.hour,
+.sensors {
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.4;
+  color: white;
+  display: flex; /* Додайте цей рядок */
+  align-items: center; /* Додайте цей рядок */
+  justify-content: center; /* Додайте цей рядок */
+  text-align: center;
+}
+
+.weather {
+  height: 200px;
+  width: 200px;
+  z-index: 3;
+  top: 0;
+  left: 0;
+}
+.weather img {
+  height: 40px;
+  display: inline-block;
+}
+.hour {
+  height: 125px;
+  width: 125px;
+  z-index: 2;
+  top: 0;
+  right: 0;
+}
+.sensors {
+  height: 100px;
+  width: 100px;
+  z-index: 1;
+  bottom: 0;
+  right: 15px;
+}
+span {
+}
