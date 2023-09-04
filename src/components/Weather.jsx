@@ -55,7 +55,7 @@ function Weather() {
   //   '50n',
   // ];
 
-  // const styl = `container${arr[0] || ''}`;
+  // const styl = `container${arr[4] || ''}`;
   const styl = `container${weatherData?.list[0]?.weather[0]?.icon || ''}`;
   console.log('weatherData:', weatherData); // Add this line
   return (
